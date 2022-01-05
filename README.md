@@ -1,2 +1,2 @@
 # BookSanta
-Download this file and install node.js. Use the command 'cd' to go into the downloaded file; run 'npm install' and then run 'expo start'. Packages may be outdated, so in this case, run 'expo upgrade'. Run tunnel once metro host launches and scan.
+Download this file and install node.js. Use the command 'cd' to go into the downloaded file; run 'npm install. Packages may be outdated, so in this case, run 'expo upgrade'. Then, use npm install firebase@8.2.1 and npm install react-native-elements@1.2.7. Then, in node_modules/react-navigation-drawer/lib/module/views/Drawer.js, replace "interpolate" with "interpolateNode" in the two places. After this, run 'expo start' and the metro host will start. Run tunnel once metro host launches and scan. 
